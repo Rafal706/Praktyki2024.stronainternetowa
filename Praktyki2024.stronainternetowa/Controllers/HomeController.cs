@@ -22,36 +22,7 @@ namespace Praktyki2024.stronainternetowa.Controllers
         {
             return View();
         }
-        public IActionResult Strona1()
-        {
-            var statystyki = new Strona1(
-                "BMW",
-                "zielony",
-                2007,
-                "Nowy",
-                "Polska");
-            return View(statystyki);
-        }
-        public IActionResult Strona2()
-        {
-            var statystyki = new Strona2(
-                "FIAT",
-                "czerwony",
-                2000,
-                "U¿ywany",
-                "Polska");
-            return View(statystyki);
-        }
-        public IActionResult Strona3()
-        {
-            var statystyki = new Strona3(
-                "Merceds",
-                "zó³ty",
-                2017,
-                "Nowy",
-                "Niemcy");
-            return View(statystyki);
-        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
