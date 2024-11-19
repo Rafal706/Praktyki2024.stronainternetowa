@@ -1,4 +1,3 @@
-﻿using System.Drawing;
 namespace Praktyki2024.stronainternetowa.Models
 {
     public class Strona1
